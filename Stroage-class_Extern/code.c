@@ -1,7 +1,7 @@
 #include <stdio.h>
-int a;
+int x, y;
 int main()
 {
-extern int a; 
-printf("%d",a);
+extern int x, y; 
+printf("%d %d",x, y);
 }
